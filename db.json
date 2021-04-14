@@ -1,0 +1,36 @@
+{
+  "menu": [
+    {
+      "image": "logo.png",
+      "name": "omlet",
+      "price": "40",
+      "id": "1"
+    },
+    {
+      "image": "logo.png",
+      "name": "Basil Pork",
+      "price": "35",
+      "id": "2"
+    },
+    {
+      "image": "logo.png",
+      "name": "omlet",
+      "price": "35",
+      "id": "3"
+    },
+    {
+      "image": "logo.png",
+      "name": "omlet",
+      "price": "35",
+      "id": "4"
+    },
+    {
+      "image": "logo.png",
+      "name": "omlet",
+      "price": "35",
+      "id": "5"
+    }
+  ],
+  "cart": [
+  ]
+}
