@@ -14,6 +14,7 @@
       :key="item.id"
       :item="item"
       @update="update"
+      @del="del"
     ></cart-slot>
     <div class="w-full grid grid-cols-5 px-2 border-t-2 border-gray-200">
       <p class="col-span-3"></p>
@@ -57,6 +58,9 @@ export default {
           quantity: quantity,
         })
     },
+    del(id){
+      this.cart = this.cart.filter((item)=>item.id != id)
+    }
   },
   mounted() {
     axios.get("http://localhost:3000/cart").then((result) => {

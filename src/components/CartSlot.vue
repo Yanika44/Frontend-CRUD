@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import axios from "axios";
 export default {
   name: "CartSlot",
   computed: {
@@ -29,6 +30,13 @@ export default {
       quantity: this.quantity,
       id: this.item.id,
     });
+    if (this.quantity <= 0) {
+      axios.delete(`http://localhost:3000/cart/${this.item.id}`).then(() => {
+        this.$emit("del", this.item.id);
+      }).catch(()=>{
+        this.$emit("del", this.item.id);
+      });
+    }
   },
 };
 </script>
