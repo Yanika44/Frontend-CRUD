@@ -1,30 +1,24 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="mx-10 mt-5 mb-2 space-y-2">
+    <p class="text-3xl w-max">Xzawake</p>
+    <div id="nav" class="text-xs flex justify-between">
+      <div class="text-gray-400">
+        <router-link to="/" class="px-1">Home</router-link>
+        <router-link to="/about" class="px-1">About us</router-link>
+        <router-link to="/menu" class="px-1">Menu</router-link>
+      </div>
+      <div class="flex mr-5">
+        <div class="h-5 w-5 bg-gray-200"></div>
+        <div class="h-5 w-5 bg-gray-200"></div>
+      </div>
+    </div>
+    <hr class="relative bottom-2">
+    <router-view />
   </div>
-  <router-view/>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.router-link-exact-active{
+  color: dimgrey;
 }
 </style>
