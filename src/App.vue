@@ -6,6 +6,7 @@
         <router-link to="/" class="px-1">Home</router-link>
         <router-link to="/about" class="px-1">About us</router-link>
         <router-link to="/menu" class="px-1">Menu</router-link>
+        <router-link to="/cart" class="px-1">Cart</router-link>
       </div>
       <div class="flex mr-5">
         <div class="h-5 w-5 bg-gray-200"></div>
