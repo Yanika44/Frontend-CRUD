@@ -1,7 +1,7 @@
 <template>
   <div class="mx-16">
     <div
-      class="w-full grid grid-cols-5 px-2 font-bold border-b-2 border-gray-200"
+      class="w-full grid grid-cols-5 px-2 font-bold border-b-2 border-gray-200 text-xl"
     >
       <p class="col-span-3">name</p>
       <div class="col-span-2 flex justify-between">
@@ -15,6 +15,7 @@
       :item="item"
       @update="update"
       @del="del"
+      class="text-lg"
     ></cart-slot>
     <div class="w-full grid grid-cols-5 px-2 border-t-2 border-gray-200">
       <p class="col-span-3"></p>

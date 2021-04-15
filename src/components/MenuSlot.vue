@@ -1,13 +1,13 @@
 <template>
   <div>
     <button
-      class="text-xs text-center bg-green-400 float-right px-1 relative top-5 mr-1"
+      class="text-lg text-center bg-green-400 float-right px-1.5 relative top-8 mr-1"
       @click="addToCart"
     >
       +
     </button>
-    <img :src="getImagePath" alt="" class="w-full h-16 bg-red-400" />
-    <div class="flex justify-between text-xs">
+    <img :src="getImagePath" alt="" class="w-full h-32 bg-red-400" />
+    <div class="flex justify-between text-xl">
       <p>{{ food.name }}</p>
       <p>{{ food.price }}</p>
     </div>
