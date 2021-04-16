@@ -61,5 +61,22 @@
       "id": "10"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "7",
+      "quantity": 1
+    },
+    {
+      "id": "9",
+      "quantity": 1
+    },
+    {
+      "id": "5",
+      "quantity": 1
+    },
+    {
+      "id": "10",
+      "quantity": 1
+    }
+  ]
 }
