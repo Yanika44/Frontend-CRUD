@@ -13,5 +13,7 @@
 ![alt text](/Example_Webpage/62130500020_4.jpg?raw=true "Cart")
 
 <Name: Yanika Putorn> 
-
 <Student ID: 62130500020>
+<**เกิดข้อผิดพลาดที่ทำการ commit โดยใช้ Account เก่า และได้ใช้ Account ปัจจุบันในการส่งค่ะ>
+Other Account: [Dearrrxqz][Dearrrxqz]
+[Dearrrxqz]: https://github.com/Dearrrxqz
