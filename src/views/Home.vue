@@ -1,12 +1,10 @@
 <template>
   <div class="flex justify-between">
-    <img src="" alt="" class="bg-red-400 w-5/12 h-72" />
-    <div class="w-6/12 text-2xl font-bold">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ab in
-      atque voluptatem a incidunt nisi quos aperiam eveniet cumque eligendi
-      repellat ad, voluptatibus, repudiandae dolor officia? Ullam, tenetur
-      accusamus?
-    </div>
+    <img src="../assets/logo-2.png" alt="No photo." class="ml-12 -mt-10 " width="500" height="500" />
+    <p class="w-6/12 text-5xl font-bold mt-36 font-serif" style="color:#BDAE95">
+      Welcome to our restaurant,<br>
+      We hope you enjoy with our food
+    </p>
   </div>
 </template>
 
@@ -16,3 +14,4 @@ export default {
   components: {},
 };
 </script>
+

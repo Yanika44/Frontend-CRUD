@@ -1,36 +1,65 @@
 {
   "menu": [
     {
-      "image": "logo.png",
-      "name": "omlet",
-      "price": "40",
+      "image": "menu1.jpg",
+      "name": "Salmon Avocado Salad",
+      "price": "269.-",
       "id": "1"
     },
     {
-      "image": "logo.png",
-      "name": "Basil Pork",
-      "price": "35",
+      "image": "menu2.jpg",
+      "name": "Orange Chicken",
+      "price": "159.-",
       "id": "2"
     },
     {
-      "image": "logo.png",
-      "name": "omlet",
-      "price": "35",
+      "image": "menu3.jpg",
+      "name": "Red Pepper Fettuccine with Shrimp",
+      "price": "259.-",
       "id": "3"
     },
     {
-      "image": "logo.png",
-      "name": "omlet",
-      "price": "35",
+      "image": "menu4.jpg",
+      "name": "Garlic Butter Shrimp",
+      "price": "259.-",
       "id": "4"
     },
     {
-      "image": "logo.png",
-      "name": "omlet",
-      "price": "35",
+      "image": "menu5.jpg",
+      "name": "Salad Meal and Vegetable",
+      "price": "149.-",
       "id": "5"
+    },
+    {
+      "image": "menu6.jpg",
+      "name": "Australian Pavlova",
+      "price": "139.-",
+      "id": "6"
+    },
+    {
+      "image": "menu7.jpg",
+      "name": "Vegan Oatmeal Cream Pies",
+      "price": "99.-",
+      "id": "7"
+    },
+    {
+      "image": "menu8.jpg",
+      "name": "Almond Cake",
+      "price": "129.-",
+      "id": "8"
+    },
+    {
+      "image": "menu9.jpg",
+      "name": "Lemon Donuts",
+      "price": "89.-",
+      "id": "9"
+    },
+    {
+      "image": "menu10.jpg",
+      "name": "Honey Rosemary Grapefruit Sodas",
+      "price": "89.-",
+      "id": "10"
     }
   ],
-  "cart": [
-  ]
+  "cart": []
 }
